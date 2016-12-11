@@ -87,3 +87,6 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+#pictures associated with the first weeks assignment
+*.png
