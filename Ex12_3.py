@@ -12,5 +12,5 @@ for line in fhand:
 	# words = line.decode().strip()
 	# for word in words:
 		# counts[word] = counts.get(word,0) + 1
-print(doc_words[:300])
+print(doc_words[:3000])
 print(num_char)
