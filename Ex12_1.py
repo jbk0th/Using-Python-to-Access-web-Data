@@ -17,7 +17,7 @@ try:
 		data = mysock.recv(512)
 		if (len(data) < 1):
 			break
-		print(data[:3000].decode())
+		print(data.decode())
 	mysock.close()
 except:
 	print('Invalid url, please enter another')
